@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+    <header class="header">                 
+        
+        <div class="LogoAlura">
+        <img src = "Frame 6.png"
+        </div>
+        
+
+        
+        
+    </header>
+    
+    
+    <div id="contenido">   
+            
+    <div id="IngreseTexto">
+        
+        <textarea id="texto" placeholder="Ingrese el texto aquí que quieres encriptar o desencriptar. No acepta mayúsculas ni caracteres especiales"></textarea><br>
+    
+    </div>
+          
+        
+    <div id="resultado">
+        <p id="mensaje"> <strong>Ningún mensaje fue encontrado </strong> </p> 
+        <p id="IngresaTexto"> Ingresa el texto que quieres encriptar o desencriptar </p>
+       
+    </div>
+    
+</div>
+
+    <div id="botones">
+            
+            <button onclick="limpiarTexto();" class="boton">Limpiar</button>
+            <button onclick="encriptarTexto();" class="boton">Encriptar</button>
+            <button onclick="desencriptarTexto();" class="boton">Desencriptar</button>
+            <button onclick="copiarTexto();" class="CopiarBoton">Copiar</button>
+    </div>
+
+    </main>
+        
+    <footer> Encriptador desarrollado por Gabriel D'Angelo dentro del curso Alura LATAM  </footer>
+    
+         
+    <script src="encriptador.js"></script>
+</body>
+</html>
